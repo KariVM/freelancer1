@@ -1,0 +1,4 @@
+/* Convirtiendo texto a mayuscula */
+.text-uppercase {
+  text-transform: uppercase;
+}

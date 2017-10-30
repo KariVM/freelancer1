@@ -274,3 +274,31 @@ a:hover {
 }
 
 /* Cuarta sección*/
+.fourth-section{
+  height: 700px;
+  /*Se le aplica relleno para que no exista un espacio entre secciones*/
+  padding-top: 10px;
+}
+/*Formulario*/
+form{
+  width: 40%;
+  /*Posicionamiento de formulario a la izquierda*/
+  margin-left: 25%;
+  margin-top: 20px;
+  /*Relleno de formulario*/
+  padding: 10px;
+}
+/*Selector por atributo */
+input[type="text"]{
+  /*Espacio entre cada entrada*/
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border: none;
+  /*Borde inferior*/
+  border-bottom: 1px solid #808080;
+  /*Posicionamiento debajo de cada uno*/
+  display: block;
+  color: #808080;
+  font-size: 25 px;
+  width: 90%;
+}

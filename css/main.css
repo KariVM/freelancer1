@@ -385,3 +385,7 @@ footer .box2 div i{
   margin-left: 8px;
   margin-top: 20px;
 }
+/*Texto en la tercera columna*/
+footer .box2 .text-green{
+  color:  #18bd9b;
+}

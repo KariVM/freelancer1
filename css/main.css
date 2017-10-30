@@ -279,9 +279,9 @@ a:hover {
 
 /* Cuarta sección*/
 .fourth-section{
-  height: 650px;
+  height: 620px;
   /*Se le aplica relleno para que no exista un espacio entre secciones*/
-  padding-top: 10px;
+  padding-top: 15px;
 }
 /*Formulario*/
 form{
@@ -326,7 +326,7 @@ textarea[type="message"]{
   margin-top: 22px;
   margin-left:5px;
   /*Relleno del boton*/
-  padding: 15px;
+  padding: 10px;
   /*Borde*/
   border: 2px solid white;
   /*Borde circular*/
@@ -336,7 +336,7 @@ textarea[type="message"]{
 /*Pie de pagina*/
 footer{
   background-color: #2c3e50;
-  height: 280px;
+  height: 380px;
   color: white;
 }
 /*Contenedor de las tres columnas*/
@@ -354,7 +354,7 @@ footer .container2 .box2{
   /*Posicionamiento a la izquierda de cada columna*/
   float: left;
   /*Margen superior*/
-  margin-top: 20px;
+  margin-top: 2px;
   /*Espaciado derecho entre las columnas*/
   margin-right: 30px;
   text-align: center;
@@ -372,10 +372,10 @@ footer .box2 div{
   display: inline-block;
   border: 2px solid white;
   /*Tamaño que tomara el circulo*/
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   /*Borde circular*/
-  border-radius: 40px;
+  border-radius: 35px;
 }
 /*Tamaño de letras del parrafo*/
 footer .box2 p{
@@ -387,7 +387,7 @@ footer .box2 div i{
   font-size: 20px;
   /*Posicionamiento en el centro del circulo*/
   margin-left: 8px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 /*Texto en la tercera columna*/
 footer .box2 .text-green{
@@ -399,8 +399,8 @@ footer .container2 .last-text {
   text-align: center;
   font-size: 15px;
   /*Posicionamiento a la derecha*/
-  margin-right: 50px;
-  margin-top: 260px;
+  margin-right: 70px;
+  margin-top: 300px;
   /*Espaciado y margen de los iconos*/
   margin-bottom: 0;
 }

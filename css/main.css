@@ -389,3 +389,14 @@ footer .box2 div i{
 footer .box2 .text-green{
   color:  #18bd9b;
 }
+/*Último texto*/
+footer .container2 .last-text {
+  /*Alineando texto al centro*/
+  text-align: center;
+  font-size: 15px;
+  /*Posicionamiento a la derecha*/
+  margin-right: 50px;
+  margin-top: 260px;
+  /*Espaciado y margen de los iconos*/
+  margin-bottom: 0;
+}

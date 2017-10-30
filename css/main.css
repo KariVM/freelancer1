@@ -164,7 +164,6 @@ a:hover {
   /*Posicionamiento al centro de la estrella */
   margin-bottom: 10px;
 }
-
 /*Parrafo de la primera sección */
 .text p {
   font-size: 20px;
@@ -172,5 +171,59 @@ a:hover {
 
 /*Segunda sección */
 #second-section {
-  
+  height: 850px;
+  /*Aplicando relleno para que no quede espacio entre las secciones */
+  padding-top: 10px;
+  background-color: white;
+}
+
+/* Icono estrella negra */
+#start-black {
+  /*Centrando la estrella */
+  text-align: center;
+  color: #2c3e50;
+  font-size: 40px;
+}
+
+/*Añadiendo líneas laterales */
+#start-black:after {
+  content: " ";
+  /*Posicionando la linea al lado derecho de la estrella*/
+  display: inline-block;
+  /*Tamaño*/
+  width: 100px;
+  height: 5px;
+  /*Color de fondo*/
+  background: #2c3e50;
+  /*Posicionamiento al centro de la estrella*/
+  margin-bottom: 10px;
+}
+#start-black:before {
+  content: " ";
+  /*Posicionando la linea al lado izquierdo de la estrella*/
+  display: inline-block;
+  /*Tamaño*/
+  width: 100px;
+  height: 5px;
+  background: #2c3e50;
+  /*Posicionamiento al centro de la estrella*/
+  margin-bottom: 10px;
+}
+
+/*Container de las imagenes */
+#second-section .container1{
+  /*Posicionamiento en el centro */
+  margin:20px 30px 0px 120px;
+}
+/*Columnas de las imagenes*/
+#second-section .box1{
+  /*las imagenes se colocan en linea pero se mantiene en bloque*/
+  display: inline-block;
+  width: 300px;
+  /*Espaciados verticales entre las imagenes*/
+  margin-right: 30px;
+}
+#second-section img{
+  width: 100%;
+  margin-bottom: 30px;
 }

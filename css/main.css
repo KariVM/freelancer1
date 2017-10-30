@@ -2,3 +2,26 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+/*Aplicando color a title-black1 */
+.title-black1 {
+  text-align: center;
+  color: #212529;
+  font-size: 50px;
+  /*aplicando espaciado superior e inferior*/
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+/* Espaciados laterales del ícono estrella */
+i {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Aplicando tipo de letra */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Lato', sans-serif;
+}

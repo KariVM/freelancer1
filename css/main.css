@@ -232,7 +232,7 @@ a:hover {
 /* Tercera sección*/
 #third-section {
   background-color: #18bd9b;
-  height: 700px;
+  height: 575px;
 }
 /* Título de la tercera sección */
 #third-section h1{
@@ -246,22 +246,25 @@ a:hover {
   font-size: 50px;
 }
 /*Contenedor de los parrafos*/
-#third-section .paragraph {
-  margin-left: 30%;
-  width: 50%;
+#third-section .paragraph-section {
+  margin-left: 28%;
+  width: 62%;
+  font-size: 20px;
 }
 /*Párrafos*/
-#third-section .paragraph p{
+#third-section .paragraph-section p{
   width: 40%;
-  /*Se posicionan en una sola línea pero se mantienen en bloque*/
+    /*Se posicionan en una sola línea pero se mantienen en bloque*/
   display: inline-block;
+  margin-bottom: 50px;
   margin-right: 20px;
   color: white;
 }
+
 /*Botón download*/
 .button1{
   color:white;
-  font-size: 18px;
+  font-size: 20px;
   background-color: #18bd9b;
   /*Posicionamiento en el centro*/
   margin-top: 20px;
@@ -271,18 +274,18 @@ a:hover {
   /*Borde*/
   border: 2px solid white;
   /*Borde circular*/
-  border-radius:10px;
+  border-radius:5px;
 }
 
 /* Cuarta sección*/
 .fourth-section{
-  height: 700px;
+  height: 650px;
   /*Se le aplica relleno para que no exista un espacio entre secciones*/
   padding-top: 10px;
 }
 /*Formulario*/
 form{
-  width: 40%;
+  width: 55%;
   /*Posicionamiento de formulario a la izquierda*/
   margin-left: 25%;
   margin-top: 20px;
@@ -292,38 +295,38 @@ form{
 /*Selector por atributo */
 input[type="text"]{
   /*Espacio entre cada entrada*/
-  margin-bottom: 10px;
-  padding-bottom: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 32px;
   border: none;
   /*Borde inferior*/
-  border-bottom: 1px solid #808080;
+  border-bottom: 1px solid #C0C0C0;
   /*Posicionamiento debajo de cada uno*/
   display: block;
   color: #808080;
-  font-size: 25 px;
-  width: 90%;
+  font-size: 25px;
+  width: 100%;
 }
 /*Selector atributo de item message*/
 textarea[type="message"]{
   color:  #808080;
   font-size: 25px;
   /*Aplicando relleno para que sea más grande*/
-  padding-bottom: 20px;
-  padding-right: 200px;
+  padding-bottom: 140px;
+  padding-right: 450px;
   border: none;
   /*Aplicando borde inferior*/
-  border-bottom: 1px solid #808080;
+  border-bottom: 1px solid #C0C0C0;
 }
 /*Boton del formulario*/
 .button2{
   color:white;
   font-size: 18px;
-  background-color: #18bd9b;4
+  background-color: #18bd9b;
   /*Posicionamiento en el centro*/
-  margin-top: 20px;
+  margin-top: 22px;
   margin-left:5px;
   /*Relleno del boton*/
-  padding: 10px;
+  padding: 15px;
   /*Borde*/
   border: 2px solid white;
   /*Borde circular*/

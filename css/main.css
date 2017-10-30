@@ -362,3 +362,26 @@ footer .title-footer{
   /*Margen entre el título y el parrafo*/
   margin-bottom: 40px;
 }
+/*Círculo que contiene al ícono*/
+footer .box2 div{
+  /*Se colocan uno tras otro sobre una línea*/
+  display: inline-block;
+  border: 2px solid white;
+  /*Tamaño que tomara el circulo*/
+  width: 60px;
+  height: 60px;
+  /*Borde circular*/
+  border-radius: 40px;
+}
+/*Tamaño de letras del parrafo*/
+footer .box2 p{
+  font-size: 20px;
+}
+/*Iconos footer*/
+footer .box2 div i{
+  text-align: center;
+  font-size: 20px;
+  /*Posicionamiento en el centro del circulo*/
+  margin-left: 8px;
+  margin-top: 20px;
+}

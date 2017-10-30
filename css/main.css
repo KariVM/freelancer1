@@ -302,3 +302,63 @@ input[type="text"]{
   font-size: 25 px;
   width: 90%;
 }
+/*Selector atributo de item message*/
+textarea[type="message"]{
+  color:  #808080;
+  font-size: 25px;
+  /*Aplicando relleno para que sea más grande*/
+  padding-bottom: 20px;
+  padding-right: 200px;
+  border: none;
+  /*Aplicando borde inferior*/
+  border-bottom: 1px solid #808080;
+}
+/*Boton del formulario*/
+.button2{
+  color:white;
+  font-size: 18px;
+  background-color: #18bd9b;4
+  /*Posicionamiento en el centro*/
+  margin-top: 20px;
+  margin-left:5px;
+  /*Relleno del boton*/
+  padding: 10px;
+  /*Borde*/
+  border: 2px solid white;
+  /*Borde circular*/
+  border-radius: 10px;
+}
+
+/*Pie de pagina*/
+footer{
+  background-color: #2c3e50;
+  height: 280px;
+  color: white;
+}
+/*Contenedor de las tres columnas*/
+footer.container2{
+  width: 90%;
+  margin-left: 80px;
+  /*Encierra todos los elementos flotantes dentro del contenedor */
+  overflow: auto;
+}
+/*Columnas de pie de pagina*/
+footer .container2 .box2{
+  /*Tamaño*/
+  width: 30%;
+  height: 200px;
+  /*Posicionamiento a la izquierda de cada columna*/
+  float: left;
+  /*Margen superior*/
+  margin-top: 20px;
+  /*Espaciado derecho entre las columnas*/
+  margin-right: 30px;
+  text-align: center;
+}
+/*Título de pie de página*/
+footer .title-footer{
+  color: white;
+  font-size: 30px;
+  /*Margen entre el título y el parrafo*/
+  margin-bottom: 40px;
+}

@@ -99,6 +99,7 @@ a:hover {
   color: #18bd9b;
 }
 
+/*Primera sección*/
 #first-section{
   /*aplicando color de fondo*/
   background-color: #18bd9b;
@@ -185,7 +186,7 @@ a:hover {
   font-size: 40px;
 }
 
-/*Añadiendo líneas laterales */
+/*Añadiendo líneas laterales con pseudoelementos after y before */
 #start-black:after {
   content: " ";
   /*Posicionando la linea al lado derecho de la estrella*/

@@ -106,10 +106,71 @@ a:hover {
 }
 
 /*Imagen de la primera sección */
-#first-block1 img {
+#first-section img {
   /* Centrando la imagen*/
   margin-left: 40%;
   margin-top: 150px;
   /* Ancho*/
   width: 18%
+}
+
+/*Contenedor del texto */
+#first-section .text{
+  /*Centrando los textos en su interior*/
+  text-align: center;
+  color: white;
+}
+
+/*Título de la primera sección */
+#first-section .text .title-white1 {
+  font-size: 80px;
+  /*Espacio superior e inferior */
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+/*Posicionando la estrella blanca */
+#start-white {
+  text-align: center;
+  color:white;
+  font-size: 40px;
+}
+
+/* Aplicando líneas laterales a la estrella*/
+#start-white:after {
+  /* No se aplica ningún texto */
+  content: " ";
+  /*Se posiciona al lado derecho de la estrella*/
+  display: inline-block;
+  /* Tamaño de la línea*/
+  width: 100px;
+  height: 5px;
+  /* Color de fondo */
+  background: white;
+  /*Posicionamiento al centro de la estrella */
+  margin-bottom: 10px;
+}
+
+#start-white:before {
+  /* No se aplica ningún texto */
+  content: " ";
+  /*Se posiciona al lado izquierdo de la estrella*/
+  display: inline-block;
+  /* Tamaño de la línea*/
+  width: 100px;
+  height: 5px;
+  /* Color de fondo */
+  background: white;
+  /*Posicionamiento al centro de la estrella */
+  margin-bottom: 10px;
+}
+
+/*Parrafo de la primera sección */
+.text p {
+  font-size: 20px;
+}
+
+/*Segunda sección */
+#second-section {
+  
 }
